@@ -1,21 +1,78 @@
 <template>
-  <section class="section">
-    <h2 class="title is-3 has-text-grey">
-      "Just start  <b-icon
-        icon="rocket"
-        size="is-large"
-      />"
-    </h2>
-    <h3 class="subtitle is-6 has-text-grey">
-      Author: <a href="https://github.com/anteriovieira">
-        Antério Vieira
-      </a>
-    </h3>
-  </section>
-</template>
+    <section class="section">
+        <h1 class="title">Marketplace</h1>
 
-<script>
-export default {
-  name: 'InspirePage'
-}
-</script>
+        <b-field>
+            <b-input placeholder="Search..." expanded></b-input>
+            <p class="control">
+                <b-button label="Search" type="is-primary" />
+            </p>
+        </b-field>
+
+        <div class="columns mt-4 box">
+            <div class="column">
+                <figure class="image is-200x200">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+                <h5 class="title is-5 mt-4 has-text-centered">R$100,00</h5>
+
+            </div>
+            <div class="column">
+                <figure class="image is-200x200">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+                <h5 class="title is-5 mt-4 has-text-centered">R$100,00</h5>
+
+            </div>
+            <div class="column">
+                <figure class="image is-200x200">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+                <h5 class="title is-5 mt-4 has-text-centered">R$100,00</h5>
+
+            </div>
+            <div class="column">
+                <figure class="image is-200x200">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+                <h5 class="title is-5 mt-4 has-text-centered">R$100,00</h5>
+
+            </div>
+        </div>
+
+        <div class="columns mt-4">
+            <div class="column">
+                <figure class="image is-200x200">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+                <h5 class="title is-5 mt-4 has-text-centered">R$100,00</h5>
+
+            </div>
+            <div class="column">
+                <figure class="image is-200x200">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+                <h5 class="title is-5 mt-4 has-text-centered">R$100,00</h5>
+
+            </div>
+            <div class="column">
+                <figure class="image is-200x200">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+                <h5 class="title is-5 mt-4 has-text-centered">R$100,00</h5>
+
+            </div>
+            <div class="column">
+                <figure class="image is-200x200">
+                    <img src="https://bulma.io/images/placeholders/128x128.png">
+                </figure>
+                <h5 class="title is-5 mt-4 has-text-centered">R$100,00</h5>
+
+            </div>
+        </div>
+
+
+
+
+    </section>
+</template>
